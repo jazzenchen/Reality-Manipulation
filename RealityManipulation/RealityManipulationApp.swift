@@ -9,6 +9,17 @@ import SwiftUI
 
 @main
 struct RealityManipulationApp: App {
+    
+    init(){
+        // register components
+        ManipulationComponent.registerComponent()
+        HandleComponent.registerComponent()
+        
+        // register systems
+        ManipulationSystem.registerSystem()
+        HandleOperationSystem.registerSystem()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -13,6 +13,16 @@
 		BBE2E7F72BB16B9E007AD960 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2E7F62BB16B9E007AD960 /* ImmersiveView.swift */; };
 		BBE2E7F92BB16B9F007AD960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE2E7F82BB16B9F007AD960 /* Assets.xcassets */; };
 		BBE2E7FC2BB16B9F007AD960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE2E7FB2BB16B9F007AD960 /* Preview Assets.xcassets */; };
+		BBE2E8072BB17073007AD960 /* ManipulationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2E8052BB17073007AD960 /* ManipulationSystem.swift */; };
+		BBE2E8082BB17073007AD960 /* HandleOperationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2E8062BB17073007AD960 /* HandleOperationSystem.swift */; };
+		BBE2E80B2BB170A8007AD960 /* HandleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2E8092BB170A8007AD960 /* HandleComponent.swift */; };
+		BBE2E80C2BB170A8007AD960 /* ManipulationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2E80A2BB170A8007AD960 /* ManipulationComponent.swift */; };
+		BBE2E80F2BB1712B007AD960 /* Manipulator_Rotate.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BBE2E80D2BB1712B007AD960 /* Manipulator_Rotate.usdz */; };
+		BBE2E8102BB1712B007AD960 /* Manipulator_Scale.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BBE2E80E2BB1712B007AD960 /* Manipulator_Scale.usdz */; };
+		BBE2E8122BB17146007AD960 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BBE2E8112BB17146007AD960 /* toy_biplane_idle.usdz */; };
+		BBE2E8142BB1716E007AD960 /* ImmersiveView+Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2E8132BB1716E007AD960 /* ImmersiveView+Gesture.swift */; };
+		BBE2E8172BB174AF007AD960 /* Entity+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2E8162BB174AF007AD960 /* Entity+Extensions.swift */; };
+		BBE2E81A2BB17D30007AD960 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = BBE2E8192BB17D30007AD960 /* Screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,17 @@
 		BBE2E7F82BB16B9F007AD960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBE2E7FB2BB16B9F007AD960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BBE2E7FD2BB16B9F007AD960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE2E8052BB17073007AD960 /* ManipulationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManipulationSystem.swift; sourceTree = "<group>"; };
+		BBE2E8062BB17073007AD960 /* HandleOperationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleOperationSystem.swift; sourceTree = "<group>"; };
+		BBE2E8092BB170A8007AD960 /* HandleComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleComponent.swift; sourceTree = "<group>"; };
+		BBE2E80A2BB170A8007AD960 /* ManipulationComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManipulationComponent.swift; sourceTree = "<group>"; };
+		BBE2E80D2BB1712B007AD960 /* Manipulator_Rotate.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Manipulator_Rotate.usdz; sourceTree = "<group>"; };
+		BBE2E80E2BB1712B007AD960 /* Manipulator_Scale.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Manipulator_Scale.usdz; sourceTree = "<group>"; };
+		BBE2E8112BB17146007AD960 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
+		BBE2E8132BB1716E007AD960 /* ImmersiveView+Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImmersiveView+Gesture.swift"; sourceTree = "<group>"; };
+		BBE2E8162BB174AF007AD960 /* Entity+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Extensions.swift"; sourceTree = "<group>"; };
+		BBE2E8182BB17AE8007AD960 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBE2E8192BB17D30007AD960 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +62,8 @@
 		BBE2E7E22BB16B9E007AD960 = {
 			isa = PBXGroup;
 			children = (
+				BBE2E8182BB17AE8007AD960 /* README.md */,
+				BBE2E8192BB17D30007AD960 /* Screenshot.png */,
 				BBE2E7ED2BB16B9E007AD960 /* RealityManipulation */,
 				BBE2E7EE2BB16B9E007AD960 /* Packages */,
 				BBE2E7EC2BB16B9E007AD960 /* Products */,
@@ -58,10 +81,17 @@
 		BBE2E7ED2BB16B9E007AD960 /* RealityManipulation */ = {
 			isa = PBXGroup;
 			children = (
+				BBE2E8152BB1749F007AD960 /* Entity */,
+				BBE2E8042BB1704F007AD960 /* Systems */,
+				BBE2E8032BB17049007AD960 /* Components */,
 				BBE2E7F22BB16B9E007AD960 /* RealityManipulationApp.swift */,
 				BBE2E7F42BB16B9E007AD960 /* ContentView.swift */,
 				BBE2E7F62BB16B9E007AD960 /* ImmersiveView.swift */,
+				BBE2E8132BB1716E007AD960 /* ImmersiveView+Gesture.swift */,
 				BBE2E7F82BB16B9F007AD960 /* Assets.xcassets */,
+				BBE2E8112BB17146007AD960 /* toy_biplane_idle.usdz */,
+				BBE2E80D2BB1712B007AD960 /* Manipulator_Rotate.usdz */,
+				BBE2E80E2BB1712B007AD960 /* Manipulator_Scale.usdz */,
 				BBE2E7FD2BB16B9F007AD960 /* Info.plist */,
 				BBE2E7FA2BB16B9F007AD960 /* Preview Content */,
 			);
@@ -82,6 +112,32 @@
 				BBE2E7FB2BB16B9F007AD960 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBE2E8032BB17049007AD960 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BBE2E8092BB170A8007AD960 /* HandleComponent.swift */,
+				BBE2E80A2BB170A8007AD960 /* ManipulationComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BBE2E8042BB1704F007AD960 /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				BBE2E8062BB17073007AD960 /* HandleOperationSystem.swift */,
+				BBE2E8052BB17073007AD960 /* ManipulationSystem.swift */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		BBE2E8152BB1749F007AD960 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BBE2E8162BB174AF007AD960 /* Entity+Extensions.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBE2E7FC2BB16B9F007AD960 /* Preview Assets.xcassets in Resources */,
+				BBE2E8122BB17146007AD960 /* toy_biplane_idle.usdz in Resources */,
+				BBE2E8102BB1712B007AD960 /* Manipulator_Scale.usdz in Resources */,
+				BBE2E80F2BB1712B007AD960 /* Manipulator_Rotate.usdz in Resources */,
 				BBE2E7F92BB16B9F007AD960 /* Assets.xcassets in Resources */,
+				BBE2E81A2BB17D30007AD960 /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +217,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE2E8082BB17073007AD960 /* HandleOperationSystem.swift in Sources */,
+				BBE2E80B2BB170A8007AD960 /* HandleComponent.swift in Sources */,
 				BBE2E7F52BB16B9E007AD960 /* ContentView.swift in Sources */,
+				BBE2E8072BB17073007AD960 /* ManipulationSystem.swift in Sources */,
+				BBE2E8172BB174AF007AD960 /* Entity+Extensions.swift in Sources */,
+				BBE2E8142BB1716E007AD960 /* ImmersiveView+Gesture.swift in Sources */,
+				BBE2E80C2BB170A8007AD960 /* ManipulationComponent.swift in Sources */,
 				BBE2E7F32BB16B9E007AD960 /* RealityManipulationApp.swift in Sources */,
 				BBE2E7F72BB16B9E007AD960 /* ImmersiveView.swift in Sources */,
 			);
